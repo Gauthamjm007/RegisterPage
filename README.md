@@ -28,6 +28,7 @@ Should be selected compulsory by the user
 
 ## File Directory
 
+```
 src
 ┣ components
 ┃ ┗ Register
@@ -41,6 +42,7 @@ src
 ┣ logo.svg
 ┣ serviceWorker.js
 ┗ setupTests.js
+```
 
 ### Challenges faced
 
