@@ -55,7 +55,7 @@ export default function Register() {
           <form onSubmit={handleSubmit}>
             <Container fluid>
               <Row>
-                <Col xs="12" lg="8" md="7" sm="6">
+                <Col xs="12" lg="8" md="7" sm="12">
                   <div className="container-img">
                     <Header>My First Project with DesignString</Header>
                     <img
@@ -66,8 +66,7 @@ export default function Register() {
                     />
                   </div>
                 </Col>
-                <Col xs="12" lg="4" md="5" sm="6">
-                  <br />
+                <Col xs="12" lg="4" md="5" sm="12">
                   <br />
                   <div align="center">
                     <AvatarUploader
@@ -78,7 +77,7 @@ export default function Register() {
                       defaultImg={values.image_url}
                     />
                     <br />
-                    <br />
+
                     <Button variant="outline-dark" onClick={handleImageUpload}>
                       Upload Profile Photo
                     </Button>
@@ -192,7 +191,7 @@ export default function Register() {
                     <div className="alert-message">{errors.gender}</div>
                   ) : null}
                   <br />
-                  <br />
+
                   <div className="form-check">
                     <input
                       type="checkbox"
@@ -204,7 +203,7 @@ export default function Register() {
                       id="checkbox"
                     />
                     <label className="form-check-label" htmlFor="checkbox">
-                      I agree on statements on Terms and services
+                      I agree on the T&Cs & Privacy Policy
                     </label>
                   </div>
                   {errors.terms_services && touched.terms_services ? (
@@ -220,7 +219,6 @@ export default function Register() {
                   >
                     Register
                   </Button>
-                  <br />
                   <br />
                 </Col>
               </Row>
