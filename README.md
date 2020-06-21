@@ -60,7 +60,7 @@ src
 ### Challenges faced
 
 Image Uploading <br/>
-Alignment <br/>
+Responsive Design <br/>
 Time Taken to complete 3 hrs <br/>
 
 ### Author
