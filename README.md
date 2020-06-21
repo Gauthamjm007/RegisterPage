@@ -6,11 +6,24 @@ A Single Page React Application - Registration Page <br/>
 Created using React , Bootstrap , Formik , Yup and React Hooks <br/>
 Click [here](https://gauthamjm007.github.io/RegisterPage/) to view the application
 
+
 ## GIF of application
 
 ![img](register.gif)
 
-## Problem Statement
+### Run locally
+
+
+Node js , npm and git are required , Please follow the instructions below to run it in local server
+```
+git clone https://github.com/Gauthamjm007/RegisterPage.git
+cd RegisterPage
+npm install
+npm start
+```
+Now the application will be running in localhost:3000 by default , in case of any error please raise an issue for this repo
+
+### Problem Statement
 
 To create a single page react app which will load the registration page.
 Language to be used is ReactJS
@@ -26,7 +39,7 @@ Any one should be selected always
 I Agree Checkbox
 Should be selected compulsory by the user
 
-## File Directory
+### File Directory
 
 ```
 src
